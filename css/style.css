@@ -146,7 +146,7 @@ body {
 .language_submenu::before {
   content: "";
   display: inline-block;
-  top: 5px;
+  top: -5px;
   left: 0;
 }
 
