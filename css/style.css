@@ -125,7 +125,7 @@ body {
   vertical-align: middle;
   cursor: pointer;
 }
-.language_link:hover + .language_submenu, .language_submenu_link:hover + .language_submenu {
+.language_link:hover + .language_submenu, .language_submenu_link:hover {
   display: block;
 }
 
@@ -141,6 +141,13 @@ body {
   top: calc(100% + 5px);
   left: 0;
   width: 100%;
+}
+
+.language_submenu::before {
+  content: "";
+  display: inline-block;
+  top: 5px;
+  left: 0;
 }
 
 .language_submenu_item {
