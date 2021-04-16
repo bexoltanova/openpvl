@@ -125,7 +125,7 @@ body {
   vertical-align: middle;
   cursor: pointer;
 }
-.language_link:hover + .language_submenu, .language_submenu_link:hover {
+.language_link:hover + .language_submenu, .language_submenu:hover {
   display: block;
 }
 
