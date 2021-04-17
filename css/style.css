@@ -542,6 +542,7 @@ body {
 .prev_btn {
   display: inline-block;
   padding: 12px 20px 12px 10px;
+  margin-bottom: 30px;
   color: #535263;
   text-transform: uppercase;
   font-size: 18px;
