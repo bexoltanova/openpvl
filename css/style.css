@@ -58,7 +58,6 @@ a {
 }
 
 body {
-  height: 100vh;
   background: url(../img/promo_test.jpg) 50% 50% no-repeat;
   background-size: cover;
   font-family: "Roboto", sans-serif;
