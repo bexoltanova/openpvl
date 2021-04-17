@@ -87,7 +87,7 @@ body {
 
 .header {
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -539,15 +539,18 @@ body {
   text-align: center;
 }
 
+.prev_btn_wrapper {
+  margin: 30px 0;
+}
+
 .prev_btn {
   display: inline-block;
   padding: 12px 20px 12px 10px;
-  margin-bottom: 30px;
   color: #535263;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
-  background-color: #fff;
+  background-color: #ffffffad;
   border-radius: 10px;
   vertical-align: middle;
   transition: all 0.3s;
@@ -568,4 +571,63 @@ body {
 
 .table_list {
   margin-bottom: 30px;
+}
+
+.vacancy_title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 22px;
+}
+
+.vacancy_position {
+  padding: 20px;
+  background-color: #FABB3C;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.position_info_table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.position_info_row td {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #cddaef;
+}
+
+.position_info_row:first-child td {
+  background-color: #F3F3F3;
+  border-bottom: none;
+}
+
+.position_info_row td:nth-child(3n) {
+  text-align: center;
+}
+
+.position_info_row td:nth-child(4n) {
+  text-align: center;
+}
+
+.position_info_row td:nth-child(5n) {
+  text-align: center;
+}
+.table_caption {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.table_cell {
+  font-size: 14px;
+  line-height: 18px;
+  /* opacity: 0.8; */
+}
+
+.position_info_row:last-child td {
+  border-bottom: none;
 }
