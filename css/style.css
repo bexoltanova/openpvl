@@ -87,7 +87,7 @@ body {
 
 .header {
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .nav {
@@ -105,34 +105,39 @@ body {
   position: absolute;
   top: 20px;
   right: 0;
+  font-size: 14px;
 }
 
 .language_list {
   display: inline-block;
 }
-
-.language_item, .language_submenu_item {
-  position: relative;
-  padding: 10px 14px;
+.language_item {
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-.language_link, .language_submenu_link {
+.language_link {
   display: inline-block;
+  padding: 10px 14px;
   color: #fff;
-  font-size: 14px;
-  vertical-align: middle;
-  cursor: pointer;
 }
-.language_link:hover + .language_submenu, .language_submenu:hover {
+
+.language_submenu_link {
   display: block;
+  color: #fff;
+  padding: 10px 14px;
 }
 
 .rus_lang {
-  background: url(../img/rus.svg) 0 50% no-repeat;
+  background: url(../img/rus.svg) 14% 50% no-repeat;
   background-size: 20px;
-  padding-left: 28px;
+  padding-left: 44px;
+}
+
+.kaz_lang {
+  background: url(../img/kaz.svg) 14% 50% no-repeat;
+  background-size: 20px;
+  padding-left: 44px;
 }
 
 .language_submenu {
@@ -141,6 +146,8 @@ body {
   top: calc(100% + 5px);
   left: 0;
   width: 100%;
+  border-radius: 0 0 4px 4px;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .language_submenu::before {
@@ -153,19 +160,13 @@ body {
 }
 
 .language_submenu_item {
-  padding: 10px;
+  position: relative;
   border-radius: 0px 0px 4px 4px;
 }
 
-.language_submenu_link:hover {
-  background-color: #fff;
-  color: #1b1a17;
-}
-
-.kaz_lang {
-  background: url(../img/kaz.svg) 0 50% no-repeat;
-  background-size: 20px;
-  padding-left: 28px;
+.language_link:hover + .language_submenu,
+.language_submenu:hover {
+  display: block;
 }
 
 .menu_flexbox {
