@@ -188,6 +188,7 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
 }
 
 .apartment_list_table tr td {

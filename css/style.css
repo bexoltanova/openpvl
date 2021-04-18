@@ -109,6 +109,7 @@ body {
   top: 20px;
   right: 0;
   font-size: 14px;
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
 }
 
 .language_list {
@@ -287,9 +288,10 @@ body {
   border-radius: 10px;
   margin-bottom: 16px;
   padding: 25px;
-  box-shadow: 0 1px 48px 0 rgba(25, 49, 80, 0.04), 0 12px 41px 0 rgba(28, 125, 248, 0.05);
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%);
   transition: all 0.3s ease;
 }
+
 .flex_item:hover {
   background-color: #1eb3ed;
   color: #fff;
@@ -606,6 +608,7 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
 }
 
 .position_info_row td {
@@ -638,9 +641,31 @@ body {
 .table_cell {
   font-size: 14px;
   line-height: 18px;
-  /* opacity: 0.8; */
 }
 
 .position_info_row:last-child td {
   border-bottom: none;
+}
+
+.iframe_wrapper {
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+}
+
+.map_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.organizations_list {
+  width: 30%;
+}
+
+.map_info {
+  width: 70%;
+}
+
+.map{
+  width: 100%;
+  min-height: 600px;
 }
