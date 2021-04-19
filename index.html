@@ -7,39 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Open Akimat</title>
 </head>
 
 <body>
   <section id="particles-js" class="particles_bg">
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="logo">
-            <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
-          </a>
-          <div class="language_switch">
-            <ul class="language_list">
-              <li class="language_item">
-                <a href="index.html" class="language_link rus_lang">Русский
-                </a>
-                <ul class="language_submenu">
-                  <li class="language_submenu_item">
-                    <a href="kaz/index.html" class="language_submenu_link kaz_lang">Қазақша</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <header class="header container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="nav">
+            <a href="index.html"></a>
+            <a href="index.html" class="logo">
+              <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
+            </a>
+            <div class="language_switch">
+              <ul class="language_list">
+                <li class="language_item">
+                  <a href="index.html" class="language_link rus_lang">Русский
+                  </a>
+                  <ul class="language_submenu">
+                    <li class="language_submenu_item">
+                      <a href="kaz/index.html" class="language_submenu_link kaz_lang">Қазақша</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-    <section class="menu">
-      <div class="container">
-        <div class="menu_flexbox">
+    <section class="menu container-fluid">
+      <div class="row">
+        <div class="col-12 menu_flexbox">
           <div class="menu_item government_services">
-            <a href="government_services.html" class="menu_item_link" target="_blank">
+            <a href="government_services.html" class="menu_item_link">
               <h3 class="menu_title">Гос. услуги</h3>
             </a>
           </div>
@@ -69,25 +73,22 @@
             </a>
           </div>
           <div class="menu_item route">
-            <a href="go2bus.html" class="menu_item_link" target="_blank">
+            <a href="go2bus.html" class="menu_item_link">
               <h3 class="menu_title">Как доехать</h3>
             </a>
           </div>
           <div class="menu_item vacancies">
-            <a href="job_offers.html" class="menu_item_link"
-              target="_blank">
+            <a href="job_offers.html" class="menu_item_link" target="_blank">
               <h3 class=" menu_title">Вакансии</h3>
             </a>
           </div>
           <div class="menu_item blog">
-            <a href="akimat_pvl_region.html"
-              class="menu_item_link" target="_blank">
+            <a href="akimat_pvl_region.html" class="menu_item_link">
               <h3 class="menu_title">Блог акима области</h3>
             </a>
           </div>
           <div class="menu_item blog">
-            <a href="akimat_pvl_city.html"
-              class="menu_item_link" target="_blank">
+            <a href="akimat_pvl_city.html" class="menu_item_link">
               <h3 class="menu_title">Блог акима города</h3>
             </a>
           </div>
@@ -107,8 +108,6 @@
       </div>
     </footer>
   </section>
-
-
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>

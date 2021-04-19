@@ -7,81 +7,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Очередь на жилье</title>
 </head>
 
 <body>
   <section id="particles-js" class="particles_bg">
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="logo">
-            <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
-          </a>
-          <div class="language_switch">
-            <ul class="language_list">
-              <li class="language_item">
-                <a href="apartment_list.html" class="language_link rus_lang">Русский
-                </a>
-                <ul class="language_submenu">
-                  <li class="language_submenu_item">
-                    <a href="kaz/apartment_list.html" class="language_submenu_link kaz_lang">Қазақша</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <header class="header container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="nav">
+            <a href="index.html" class="prev_btn">НАЗАД</a>
+            <a href="index.html" class="logo">
+              <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
+            </a>
+            <div class="language_switch">
+              <ul class="language_list">
+                <li class="language_item">
+                  <a href="apartment_list.html" class="language_link rus_lang">Русский
+                  </a>
+                  <ul class="language_submenu">
+                    <li class="language_submenu_item">
+                      <a href="kaz/apartment_list.html" class="language_submenu_link kaz_lang">Қазақша</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-    <section class="inner_section">
-      <div class="container">
-        <h2 class="inner_title">Очередь на жилье</h2>
-        <div class="flex_container">
-          <a href="#" class="flex_item">
-            <h3 class="flex_item_text">
-              Очередь на жилье
-            </h3>
-          </a>
-          <a href="table_list1.html" class="flex_item">
-            <h3 class="flex_item_text">
-              Список №1-1 "Дети-сироты", "Дети оставшиеся без попечения родителей"
-            </h3>
-          </a>
-          <a href="table_list4.html" class="flex_item">
-            <h3 class="flex_item_text">
-              Список №2 "Социально уязвимые слои населения"
-            </h3>
-          </a>
-          <a href="table_list5.html" class="flex_item">
-            <h3 class="flex_item_text">
-              Список №3 "Государственные служащие, работники бюджетных организации, военнослужащие, кандидаты в
-              космонавты, космонавты, сотрудники специальных государственных органов и лица, занимающие государственные
-              выборные должности"
-            </h3>
-          </a>
-          <a href="table_list3.html" class="flex_item">
-            <h3 class="flex_item_text">
-              Список №4 "Граждане, единственное жилище которых признано аварийным в порядке, установленном
-              законодательством республики казахстан"
-            </h3>
-          </a>
-          <a href="table_list2.html" class="flex_item">
-            <h3 class="flex_item_text">
-              Список №1-2 "Многодетных матерей, награжденных подвесками "Алтын алқа", "Күміс алқа" или получивших ранее
-              звание "Мать-героиня", а также награжденных орденами "Материнская слава" І и ІІ степени, многодетных
-              семей"
-            </h3>
-          </a>
+    <section class="inner_section container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="inner_title">Очередь на жилье</h2>
+          <div class="flex_container">
+            <div class="flex_item active_blue">
+              <h3 class="flex_item_text">
+                Очередь на жилье
+              </h3>
+            </div>
+            <a href="table_list1.html" class="flex_item">
+              <h3 class="flex_item_text">
+                Список №1-1 "Дети-сироты", "Дети оставшиеся без попечения родителей"
+              </h3>
+            </a>
+            <a href="table_list4.html" class="flex_item">
+              <h3 class="flex_item_text">
+                Список №2 "Социально уязвимые слои населения"
+              </h3>
+            </a>
+            <a href="table_list5.html" class="flex_item">
+              <h3 class="flex_item_text">
+                Список №3 "Государственные служащие, работники бюджетных организации, военнослужащие, кандидаты в
+                космонавты, космонавты, сотрудники специальных государственных органов и лица, занимающие
+                государственные
+                выборные должности"
+              </h3>
+            </a>
+            <a href="table_list3.html" class="flex_item">
+              <h3 class="flex_item_text">
+                Список №4 "Граждане, единственное жилище которых признано аварийным в порядке, установленном
+                законодательством республики казахстан"
+              </h3>
+            </a>
+            <a href="table_list2.html" class="flex_item">
+              <h3 class="flex_item_text">
+                Список №1-2 "Многодетных матерей, награжденных подвесками "Алтын алқа", "Күміс алқа" или получивших
+                ранее
+                звание "Мать-героиня", а также награжденных орденами "Материнская слава" І и ІІ степени, многодетных
+                семей"
+              </h3>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <div class="container">
-      <div class="prev_btn_wrapper">
-        <a href="index.html" class="prev_btn">НАЗАД</a>
-      </div>
-    </div>
   </section>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/particles.js"></script>

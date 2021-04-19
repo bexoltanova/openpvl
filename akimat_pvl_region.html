@@ -7,46 +7,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Блог акима области</title>
 </head>
 
 <body>
   <section id="particles-js" class="particles_bg">
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="logo">
-            <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
-          </a>
-          <div class="language_switch">
-            <ul class="language_list">
-              <li class="language_item">
-                <a href="akimat_pvl_region.html" class="language_link rus_lang">Русский
-                </a>
-                <ul class="language_submenu">
-                  <li class="language_submenu_item">
-                    <a href="kaz/akimat_pvl_region.html" class="language_submenu_link kaz_lang">Қазақша</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <header class="header container-fluidv">
+      <div class="row">
+        <div class="col-12">
+          <nav class="nav">
+            <a href="index.html" class="prev_btn">НАЗАД</a>
+            <a href="index.html" class="logo">
+              <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
+            </a>
+            <div class="language_switch">
+              <ul class="language_list">
+                <li class="language_item">
+                  <a href="akimat_pvl_region.html" class="language_link rus_lang">Русский
+                  </a>
+                  <ul class="language_submenu">
+                    <li class="language_submenu_item">
+                      <a href="kaz/akimat_pvl_region.html" class="language_submenu_link kaz_lang">Қазақша</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-    <section class="inner_section">
-      <div class="container">
-        <div class="iframe_wrapper">
-          <iframe src="https://www.gov.kz/memleket/entities/pavlodar/virtual-reception/question?lang=ru" width="100%" height="600"></iframe>
+    <section class="inner_section container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="iframe_wrapper">
+            <iframe src="https://www.gov.kz/memleket/entities/pavlodar/virtual-reception/question?lang=ru" width="100%"
+              height="600"></iframe>
+          </div>
         </div>
       </div>
     </section>
-    <div class="container">
-      <div class="prev_btn_wrapper">
-        <a href="index.html" class="prev_btn">НАЗАД</a>
-      </div>
-    </div>
   </section>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/particles.js"></script>

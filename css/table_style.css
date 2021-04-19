@@ -1,7 +1,87 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
  * * v2.0 | 20110126
  * * License: none (public domain) */
- html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -11,7 +91,17 @@
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -19,20 +109,24 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after {
+blockquote:before,
+blockquote:after {
   content: "";
   content: none;
 }
 
-q:before, q:after {
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -75,23 +169,20 @@ body {
   z-index: -100;
 }
 
-.container {
-  max-width: 1160px;
-  margin: 0 auto;
-}
-
 .center {
   text-align: center;
 }
 
 .header {
   padding: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 
 .nav {
   text-align: center;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo img {
@@ -101,15 +192,15 @@ body {
 }
 
 .language_switch {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  font-size: 14px;
+  font-size: 18px;
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%);
+  position: relative;
 }
 
 .language_list {
   display: inline-block;
 }
+
 .language_item {
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -163,23 +254,36 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.language_link:hover + .language_submenu,
+.language_link:hover+.language_submenu,
 .language_submenu:hover {
   display: block;
 }
 
 .inner_title {
   margin-bottom: 40px;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   color: #fff;
 }
 
+.table_subtitle_wrapper {
+  margin-bottom: 30px;
+}
+
+.table_subtitle {
+  max-width: 1000px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 auto;
+}
+
 .form-control {
-  padding: 10px;
+  padding: 15px 14px;
   margin-bottom: 20px;
-  min-width: 300px;
-  font-size: 16px;
+  min-width: 500px;
+  font-size: 18px;
   border: 1px solid #0052D4;
   outline: none;
 }
@@ -188,7 +292,8 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%);
+  table-layout: fixed;
 }
 
 .apartment_list_table tr td {
@@ -197,13 +302,19 @@ body {
   border-bottom: 1px solid #cddaef;
 }
 
-.apartment_list_table tr:first-child td {
-  background-color: #F3F3F3;
-  border-bottom: none;
+.apartment_list_table tr td:first-child {
+  width: 70px;
+  text-align: center;
 }
 
 .apartment_list_table tr td:nth-child(3n) {
+  width: 700px;
   text-align: center;
+}
+
+.apartment_list_table tr:first-child td {
+  background-color: #F3F3F3;
+  border-bottom: none;
 }
 
 .apartment_list_table tr td:nth-child(4n) {
@@ -213,6 +324,7 @@ body {
 .apartment_list_table tr td:nth-child(5n) {
   text-align: center;
 }
+
 .table_caption {
   font-size: 14px;
   font-weight: 600;
@@ -243,9 +355,11 @@ body {
   vertical-align: middle;
   transition: all 0.3s;
 }
+
 .prev_btn:hover {
   background-color: #e6e6e6;
 }
+
 .prev_btn::before {
   content: "";
   display: inline-block;
