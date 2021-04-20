@@ -686,7 +686,7 @@ function init() {
     // Создание экземпляра карты.
     var myMap = new ymaps.Map('map', {
             center: [52.283369039543224, 76.93993325977007],
-            zoom: 17
+            zoom: 18
         }, {
             searchControlProvider: 'yandex#search'
         }),
@@ -704,7 +704,6 @@ function init() {
             collection = new ymaps.GeoObjectCollection(null, { preset: group.style }),
         // Контейнер для подменю.
             submenu = $('<ul class="submenu"/>');
-
         // Добавляем коллекцию на карту.
         myMap.geoObjects.add(collection);
         // Добавляем подменю.
@@ -755,5 +754,5 @@ function init() {
      $("#organizations_list").append(menu);
     // menu.appendTo($('body'));
     // Выставляем масштаб карты чтобы были видны все группы.
-    myMap.setBounds(myMap.geoObjects.getBounds());
+    // myMap.setBounds(myMap.geoObjects.getBounds());
 }
