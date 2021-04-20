@@ -754,6 +754,8 @@ body {
   box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
 }
 
+/* -----------------------------MAP STYLE START----------------------------------------- */
+
 .map_container {
   display: flex;
   justify-content: space-between;
@@ -761,14 +763,57 @@ body {
 }
 
 .organizations_list {
-  width: 30%;
+  width: 24%;
 }
 
 .map_info {
-  width: 70%;
+  width: 75%;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100vh;
 }
 
 .map {
   width: 100%;
-  min-height: 600px;
+  height: 100%;
 }
+
+.org_type_link,
+.organization_link {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  transition: all 0.3s;
+}
+
+.org_type_link {
+  text-transform: uppercase;
+  background: #fff url(../img/arrow_down.png) 95% 50% no-repeat;
+  padding: 20px;
+  font-weight: 500;
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+}
+
+.org_type_link:hover {
+  background-color: #4dc3f1;
+  color: #fff;
+}
+
+.organization_link {
+  padding: 14px;
+  margin-left: 16px;
+  background-color: #F3F3F3;
+}
+
+.org_address {
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+
+/* -----------------------------MAP STYLE END----------------------------------------- */
