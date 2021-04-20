@@ -704,6 +704,7 @@ function init() {
             collection = new ymaps.GeoObjectCollection(null, { preset: group.style }),
         // Контейнер для подменю.
             submenu = $('<ul class="submenu"/>');
+
         // Добавляем коллекцию на карту.
         myMap.geoObjects.add(collection);
         // Добавляем подменю.

@@ -580,7 +580,7 @@ body {
 .service_info_flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
 }
 
@@ -593,6 +593,11 @@ body {
   background-color: #F3F3F3;
   border-radius: 20px;
   transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.service_info_item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .service_info_item:hover {
