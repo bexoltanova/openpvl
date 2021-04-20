@@ -273,10 +273,10 @@ body {
   align-items: stretch;
 }
 
-.menu_flexbox::after {
+/* .menu_flexbox::after {
   content: "";
   flex: auto;
-}
+} */
 
 .menu_item {
   width: 24%;
@@ -306,6 +306,7 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   font-weight: 500;
+  line-height: 22px;
   text-transform: uppercase;
   text-align: center;
   transition: all 0.3s ease;
@@ -349,7 +350,6 @@ body {
 .blog {
   background: url(../img/blog.jpg) 50% 50% no-repeat;
   background-size: cover;
-  margin-right: 17px;
 }
 
 .route {
@@ -359,6 +359,11 @@ body {
 
 .vacancies {
   background: url(../img/vacancies.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.housing_programs {
+  background: url(../img/housing_programs.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -756,7 +761,7 @@ body {
 
 .iframe_wrapper {
   height: 100vh;
-  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+  /* box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%) */
 }
 
 /* -----------------------------MAP STYLE START----------------------------------------- */
@@ -826,3 +831,10 @@ body {
 
 
 /* -----------------------------MAP STYLE END----------------------------------------- */
+
+.under_construction {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
