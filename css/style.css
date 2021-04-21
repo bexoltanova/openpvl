@@ -176,6 +176,10 @@ body {
   z-index: -100;
 }
 
+.col-12 {
+  padding: 0 100px;
+}
+
 .center {
   text-align: center;
 }
@@ -280,7 +284,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 200px;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -299,6 +303,11 @@ body {
 
 .menu_item_link:hover .menu_title {
   color: #3A3C9E;
+}
+
+.menu_item_link img {
+  display: block;
+  width: 100%;
 }
 
 .menu_title {
