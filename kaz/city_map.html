@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Мекеме картасы</title>
+</head>
+
+<body>
+  <section id="particles-js" class="particles_bg">
+    <header class="header container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="nav">
+            <a href="index.html" class="prev_btn">Артқа</a>
+            <a href="index.html" class="logo">
+              <img src="../img/openpvl_logo.png" alt="Open Pavlodar logotype">
+            </a>
+            <div class="language_switch">
+              <!-- <ul class="language_list">
+                <li class="language_item">
+                  <a href="city_map.html" class="language_link rus_lang">Русский
+                  </a>
+                  <ul class="language_submenu">
+                    <li class="language_submenu_item">
+                      <a href="kaz/city_map.html" class="language_submenu_link kaz_lang">Қазақша</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul> -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="inner_section container-fluid" id="mapsy">
+      <div class="row">
+        <div class="col-12">
+          <div class="map_container">
+            <div id="organizations_list" class="organizations_list">
+
+            </div>
+            <div class="map_info">
+              <div id="map" class="map"></div>
+              <!-- <div class="org_contact_info">
+                <div class="org_contact_title">
+
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+  <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/particles.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/groups.js"></script>
+</body>
+
+</html>
