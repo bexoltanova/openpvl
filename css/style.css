@@ -423,10 +423,6 @@ body {
   text-transform: uppercase;
 }
 
-.services {
-  box-shadow: 1px 0px 15px 0px rgba(0, 0, 0, 0.3);
-}
-
 .services_title_wrapper {
   padding: 20px 30px;
   background-color: #8159D0;
