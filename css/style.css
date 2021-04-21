@@ -284,7 +284,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 220px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -322,57 +322,57 @@ body {
 }
 
 .government_services {
-  background: url(../img/government_services.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/government_services.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .apartment_list {
-  background: url(../img/apt_list.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/apt_list.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .apartment_recievers {
-  background: url(../img/apt_receiver.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/apt_receiver.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .citizen_services {
-  background: url(../img/citizen_services.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/citizen_services.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .business_services {
-  background: url(../img/business_services.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/business_services.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .city_map {
-  background: url(../img/city_map.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/city_map.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .education {
-  background: url(../img/education.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/education.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .blog {
-  background: url(../img/blog.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/blog.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .route {
-  background: url(../img/map.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/map.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
 .vacancies {
-  background: url(../img/vacancies.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  background: #fff url(../img/vacancies.png) 50% 50% no-repeat;
+  background-size: contain;
 }
 
 .housing_programs {
-  background: url(../img/housing_programs.jpg) 50% 50% no-repeat;
+  background: #fff url(../img/housing_programs.jpeg) 50% 50% no-repeat;
   background-size: cover;
 }
 
