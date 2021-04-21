@@ -834,3 +834,81 @@ body {
   height: auto;
   border-radius: 20px;
 }
+
+.housing_program_title,
+.housing_program_subtitle {
+  padding: 20px 0 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1CD3B1;
+  line-height: 28px;
+}
+
+.housing_program_subtitle {
+  margin-bottom: 10px;
+}
+
+.housing_program_text {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.list_item {
+  margin-bottom: 10px;
+}
+
+.housing_program_flex {
+  margin-top: 50px;
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+.housing_program_item {
+  display: inline-block;
+  padding: 5px;
+  width: 120px;
+  height: 120px;
+  transition: all 0.3s ease;
+}
+
+.ic-nurlyzher1 {
+  background: url(../img/ic-nurlyzher1.png) 0% 0% no-repeat;
+  background-size: 100px auto;
+}
+
+.ic-nurlyzher2 {
+  background: url(../img/ic-nurlyzher2.png) 0% 0% no-repeat;
+  background-size: 100px auto;
+}
+
+.ic-nurlyzher3 {
+  background: url(../img/ic-nurlyzher3.png) 0% 0% no-repeat;
+  background-size: 100px auto;
+}
+
+.ic-nurlyzher4 {
+  background: url(../img/ic-nurlyzher4.png) 0% 0% no-repeat;
+  background-size: 100px auto;
+}
+
+.ic-nurlyzher5 {
+  background: url(../img/ic-nurlyzher5.png) 0% 0% no-repeat;
+  background-size: 100px auto;
+}
+
+.ic-nurlyzher6 {
+  background: url(../img/ic-nurlyzher6.png) 0% 0% no-repeat;
+  background-size: 90px auto;
+}
+
+.green_active {
+  color: #1CD3B1;
+}
+
+.housing_program_img_wrapper img {
+  display: block;
+  width: 100%;
+}
