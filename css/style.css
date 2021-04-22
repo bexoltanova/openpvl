@@ -345,12 +345,12 @@ body {
 }
 
 .apartment_recievers {
-  background: #fff url(../img/apt_receiver.png) 50% 50% no-repeat;
-  background-size: cover;
+  background: #0071BC url(../img/apt_receiver.png) 50% 50% no-repeat;
+  background-size: 200px;
 }
 
 .citizen_services {
-  background: #fff url(../img/citizen_services.png) 50% 50% no-repeat;
+  background: #fff url(../img/citizen_services.png) 50% 100% no-repeat;
   background-size: cover;
 }
 
@@ -366,7 +366,7 @@ body {
 
 .education {
   background: #F7F9F1 url(../img/education.png) 50% -10% no-repeat;
-  background-size: 200px;
+  background-size: 150px;
 }
 
 .blog {
@@ -375,18 +375,18 @@ body {
 }
 
 .route {
-  background: #fff url(../img/map.png) 50% 50% no-repeat;
+  background: #fff url(../img/map.png) 50% 90% no-repeat;
   background-size: cover;
 }
 
 .vacancies {
   background: #fff url(../img/vacancies.png) 50% 50% no-repeat;
-  background-size: 130px;
+  background-size: 110px;
 }
 
 .housing_programs {
   background: #F7F7F7 url(../img/housing_programs.jpeg) 50% -10% no-repeat;
-  background-size: 310px;
+  background-size: 280px;
 }
 
 .inner_title {
