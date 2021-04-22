@@ -365,8 +365,8 @@ body {
 }
 
 .education {
-  background: #F7F9F1 url(../img/education.png) 50% 50% no-repeat;
-  background-size: contain;
+  background: #F7F9F1 url(../img/education.png) 50% -10% no-repeat;
+  background-size: 200px;
 }
 
 .blog {
@@ -381,12 +381,12 @@ body {
 
 .vacancies {
   background: #fff url(../img/vacancies.png) 50% 50% no-repeat;
-  background-size: contain;
+  background-size: 130px;
 }
 
 .housing_programs {
-  background: #F7F7F7 url(../img/housing_programs.jpeg) 50% 50% no-repeat;
-  background-size: contain;
+  background: #F7F7F7 url(../img/housing_programs.jpeg) 50% -10% no-repeat;
+  background-size: 310px;
 }
 
 .inner_title {
