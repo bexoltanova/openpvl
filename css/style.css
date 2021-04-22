@@ -178,7 +178,7 @@ body {
 
 .invisible {
   display: inline-block;
-  width: 120px;
+  width: 130px;
   height: 50px;
 }
 
@@ -297,7 +297,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 230px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
