@@ -930,6 +930,10 @@ body {
   color: #1CD3B1;
 }
 
+.red_active {
+  color: #F4706F;
+}
+
 .housing_program_img_wrapper img {
   display: block;
   width: 100%;
