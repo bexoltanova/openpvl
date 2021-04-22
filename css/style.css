@@ -297,7 +297,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 300px;
+  min-height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -310,7 +310,7 @@ body {
 }
 
 .menu_item:hover .menu_title {
-  transform: translateY(-60px);
+  transform: translateY(-100px);
   background-color: white;
 }
 
