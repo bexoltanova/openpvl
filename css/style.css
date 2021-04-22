@@ -326,9 +326,9 @@ body {
 .menu_title {
   padding: 20px 10px;
   background-color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 28px;
   text-transform: uppercase;
   text-align: center;
   transition: all 0.3s ease;
