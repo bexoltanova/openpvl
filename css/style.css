@@ -297,7 +297,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 200px;
+  min-height: 230px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
