@@ -297,7 +297,7 @@ body {
 
 .menu_item {
   width: 24%;
-  min-height: 350px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -385,8 +385,8 @@ body {
 }
 
 .housing_programs {
-  background: #fff url(../img/housing_programs.jpeg) 50% 50% no-repeat;
-  background-size: cover;
+  background: #F7F7F7 url(../img/housing_programs.jpeg) 50% 50% no-repeat;
+  background-size: contain;
 }
 
 .inner_title {
