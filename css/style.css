@@ -938,3 +938,10 @@ body {
   display: block;
   width: 100%;
 }
+
+.ic-instagram {
+  display: inline-block;
+  background: url(../img/ic-insta.png) 0 50% no-repeat;
+  background-size: 24px;
+  padding-left: 30px;
+}
