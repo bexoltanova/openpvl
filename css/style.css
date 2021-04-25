@@ -154,11 +154,11 @@ a {
 body {
   /* background: url(../img/promo_test.jpg) 50% 50% no-repeat;
   background-size: cover; */
-  background: #0052D4;
+  background: #0052d4;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  background: -webkit-linear-gradient(to right, #6fb1fc, #4364f7, #0052d4);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  background: linear-gradient(to right, #6fb1fc, #4364f7, #0052d4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Roboto", sans-serif;
   color: #1b1a17;
@@ -278,7 +278,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.language_link:hover+.language_submenu,
+.language_link:hover + .language_submenu,
 .language_submenu:hover {
   display: block;
 }
@@ -309,20 +309,6 @@ body {
   transition: all 0.3s ease;
 }
 
-.menu_item:hover .menu_title {
-  transform: translateY(-100px);
-  background-color: white;
-}
-
-.menu_item_link:hover .menu_title {
-  color: #3A3C9E;
-}
-
-.menu_item_link img {
-  display: block;
-  width: 100%;
-}
-
 .menu_title {
   padding: 25px 10px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -345,7 +331,7 @@ body {
 }
 
 .apartment_recievers {
-  background: #0071BC url(../img/apt_receiver.png) 50% 50% no-repeat;
+  background: #0071bc url(../img/apt_receiver.png) 50% 50% no-repeat;
   background-size: 200px;
 }
 
@@ -365,7 +351,7 @@ body {
 }
 
 .education {
-  background: #F7F9F1 url(../img/education.png) 50% -10% no-repeat;
+  background: #f7f9f1 url(../img/education.png) 50% -10% no-repeat;
   background-size: 150px;
 }
 
@@ -385,7 +371,7 @@ body {
 }
 
 .housing_programs {
-  background: #F7F7F7 url(../img/housing_programs.jpeg) 50% -10% no-repeat;
+  background: #f7f7f7 url(../img/housing_programs.jpeg) 50% -10% no-repeat;
   background-size: 280px;
 }
 
@@ -447,15 +433,15 @@ body {
 
 .services_title_wrapper {
   padding: 20px 30px;
-  background-color: #8159D0;
+  background-color: #8159d0;
 }
 
 .guests {
-  background-color: #F4706F;
+  background-color: #f4706f;
 }
 
 .business {
-  background-color: #1CD3B1;
+  background-color: #1cd3b1;
 }
 
 .inner_service_subtitle {
@@ -496,7 +482,7 @@ body {
   height: 200px;
   padding: 10px 20px;
   margin-bottom: 10px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -506,77 +492,77 @@ body {
 }
 
 .family {
-  background: #F7F7F7 url(../img/ring.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/ring.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .social_services {
-  background: #F7F7F7 url(../img/signing.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/signing.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .health {
-  background: #F7F7F7 url(../img/heart.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/heart.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .education_service {
-  background: #F7F7F7 url(../img/books.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/books.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .accomodation {
-  background: #F7F7F7 url(../img/house.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/house.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .job {
-  background: #F7F7F7 url(../img/manager.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/manager.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .transport {
-  background: #F7F7F7 url(../img/car.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/car.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .military {
-  background: #F7F7F7 url(../img/military-rank.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/military-rank.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .finance {
-  background: #F7F7F7 url(../img/coin.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/coin.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .other {
-  background: #F7F7F7 url(../img/tap.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/tap.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .migration {
-  background: #F7F7F7 url(../img/earth-globe.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/earth-globe.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .customer_rights {
-  background: #F7F7F7 url(../img/shopping-cart.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/shopping-cart.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .license {
-  background: #F7F7F7 url(../img/medal.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/medal.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .taxes {
-  background: #F7F7F7 url(../img/tax.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/tax.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
 .startup {
-  background: #F7F7F7 url(../img/stamp.png) 50% 50% no-repeat;
+  background: #f7f7f7 url(../img/stamp.png) 50% 50% no-repeat;
   background-size: 150px;
 }
 
@@ -596,7 +582,7 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: #CDCDD1;
+  background-color: #cdcdd1;
   border-radius: 20px;
 }
 
@@ -613,7 +599,7 @@ body {
   padding: 26px 20px;
   font-size: 18px;
   font-weight: 500;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-radius: 20px;
   transition: all 0.3s ease;
   margin-right: 20px;
@@ -656,7 +642,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 10px;
-  background-color: #FABB3C;
+  background-color: #fabb3c;
   vertical-align: middle;
   cursor: pointer;
   transition: all 0.3s;
@@ -727,7 +713,7 @@ body {
 
 .vacancy_position {
   padding: 20px;
-  background-color: #FABB3C;
+  background-color: #fabb3c;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -737,7 +723,7 @@ body {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%);
 }
 
 .position_info_row td {
@@ -747,7 +733,7 @@ body {
 }
 
 .position_info_row:first-child td {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-bottom: none;
 }
 
@@ -825,7 +811,7 @@ body {
   background: #fff url(../img/arrow_down.png) 95% 50% no-repeat;
   padding: 20px;
   font-weight: 500;
-  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%)
+  box-shadow: 1px 0px 15px 0px rgb(0 0 0 / 20%);
 }
 
 .org_type_link:hover {
@@ -836,7 +822,7 @@ body {
 .organization_link {
   padding: 14px;
   margin-left: 16px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 .org_address {
@@ -845,8 +831,6 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
-
-
 
 /* -----------------------------MAP STYLE END----------------------------------------- */
 
@@ -863,7 +847,7 @@ body {
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
-  color: #1CD3B1;
+  color: #1cd3b1;
   line-height: 28px;
 }
 
@@ -927,11 +911,11 @@ body {
 }
 
 .green_active {
-  color: #1CD3B1;
+  color: #1cd3b1;
 }
 
 .red_active {
-  color: #F4706F;
+  color: #f4706f;
 }
 
 .housing_program_img_wrapper img {
