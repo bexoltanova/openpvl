@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
   <title>Транспорт</title>
 </head>
@@ -22,19 +23,15 @@
             <a href="../index.html" class="logo">
               <img src="../img/openpvl_logo.png" alt="Open Pavlodar logotype">
             </a>
-            <div class="language_switch">
-              <ul class="language_list">
-                <li class="language_item">
-                  <a href="transport_service13.html" class="language_link rus_lang">Русский
-                  </a>
-                  <ul class="language_submenu">
-                    <li class="language_submenu_item">
-                      <a href="kaz/transport_services/transport_service13.html"
-                        class="language_submenu_link kaz_lang">Қазақша</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle language_link rus_lang" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Русский
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item language_submenu_link kaz_lang"
+                  href="../kaz/transport_services/transport_service13.html">Қазақша</a>
+              </div>
             </div>
           </nav>
         </div>
