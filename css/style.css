@@ -278,8 +278,13 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.language_link:hover + .language_submenu,
+.language_link:hover+.language_submenu,
 .language_submenu:hover {
+  display: block;
+}
+
+.language_link:active+.language_submenu,
+.language_submenu:active {
   display: block;
 }
 
