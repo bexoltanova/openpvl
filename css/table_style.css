@@ -208,66 +208,33 @@ body {
   position: relative;
 }
 
-.language_list {
-  display: inline-block;
-}
-
-.language_item {
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
 .language_link {
   display: inline-block;
-  padding: 10px 14px;
+  padding: 12px 14px;
   color: #fff;
+  font-size: 18px;
+  font-family: "Roboto",
+    sans-serif;
 }
 
 .language_submenu_link {
-  display: block;
-  color: #fff;
+  display: inline-block;
   padding: 10px 14px;
+  color: #1b1a17;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .rus_lang {
-  background: url(../img/rus.svg) 14% 50% no-repeat;
+  background: rgba(255, 255, 255, 0.4) url(../img/rus.svg) 14% 50% no-repeat;
   background-size: 20px;
   padding-left: 44px;
 }
 
 .kaz_lang {
-  background: url(../img/kaz.svg) 14% 50% no-repeat;
+  background: rgba(255, 255, 255, 0.4) url(../img/kaz.svg) 14% 50% no-repeat;
   background-size: 20px;
   padding-left: 44px;
-}
-
-.language_submenu {
-  display: none;
-  position: absolute;
-  top: calc(100% + 5px);
-  left: 0;
-  width: 100%;
-  border-radius: 0 0 4px 4px;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.language_submenu::before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: 0;
-  width: 100%;
-  height: 5px;
-}
-
-.language_submenu_item {
-  position: relative;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.language_link:hover+.language_submenu,
-.language_submenu:hover {
-  display: block;
 }
 
 .inner_title {

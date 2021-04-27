@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css" />
     <title>Отанға қызмет ету</title>
   </head>
@@ -27,25 +28,15 @@
                   alt="Open Pavlodar logotype"
                 />
               </a>
-              <div class="language_switch">
-                <ul class="language_list">
-                  <li class="language_item">
-                    <a
-                      href="military_services.html"
-                      class="language_link kaz_lang"
-                      >Қазақша
-                    </a>
-                    <ul class="language_submenu">
-                      <li class="language_submenu_item">
-                        <a
-                          href="../military_services.html"
-                          class="language_submenu_link rus_lang"
-                          >Русский</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle language_link kaz_lang" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Қазақша
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item language_submenu_link rus_lang"
+                    href="../military_services.html">Русский</a>
+                </div>
               </div>
             </nav>
           </div>
@@ -148,8 +139,12 @@
         </div>
       </section>
     </section>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/particles.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
