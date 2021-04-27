@@ -1,67 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Как доехать</title>
-  </head>
 
-  <body>
-    <section id="particles-js" class="particles_bg">
-      <header class="header container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <nav class="nav">
-              <a href="index.html" class="prev_btn">НАЗАД</a>
-              <a href="index.html" class="logo">
-                <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype" />
-              </a>
-              <div class="language_switch">
-                <ul class="language_list">
-                  <li class="language_item">
-                    <a href="go2bus.html" class="language_link rus_lang"
-                      >Русский
-                    </a>
-                    <ul class="language_submenu">
-                      <li class="language_submenu_item">
-                        <a
-                          href="kaz/go2bus.html"
-                          class="language_submenu_link kaz_lang"
-                          >Қазақша</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Как доехать</title>
+</head>
+
+<body>
+  <section id="particles-js" class="particles_bg">
+    <header class="header container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="nav">
+            <a href="index.html" class="prev_btn">НАЗАД</a>
+            <a href="index.html" class="logo">
+              <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype" />
+            </a>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle language_link rus_lang" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Русский
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item language_submenu_link kaz_lang" href="kaz/go2bus.html">Қазақша</a>
               </div>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <section class="inner_section container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="iframe_wrapper">
-              <iframe
-                src="http://go2.bus-pvl.kz/"
-                width="100%"
-                height="100%"
-              ></iframe>
             </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="inner_section container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="iframe_wrapper">
+            <iframe src="http://go2.bus-pvl.kz/" width="100%" height="100%"></iframe>
           </div>
         </div>
-      </section>
+      </div>
     </section>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </section>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>

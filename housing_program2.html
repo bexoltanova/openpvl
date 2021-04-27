@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>БАҚЫТТЫ ОТБАСЫ</title>
 </head>
@@ -22,18 +23,14 @@
             <a href="index.html" class="logo">
               <img src="img/openpvl_logo.png" alt="Open Pavlodar logotype">
             </a>
-            <div class="language_switch">
-              <ul class="language_list">
-                <li class="language_item">
-                  <a href="housing_program2.html" class="language_link rus_lang">Русский
-                  </a>
-                  <ul class="language_submenu">
-                    <li class="language_submenu_item">
-                      <a href="kaz/housing_program2.html" class="language_submenu_link kaz_lang">Қазақша</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle language_link rus_lang" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Русский
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item language_submenu_link kaz_lang" href="kaz/housing_program2.html">Қазақша</a>
+              </div>
             </div>
           </nav>
         </div>
@@ -94,10 +91,10 @@
                   <span class="bold_style">Залоговое обеспечение</span> – приобретаемое жилье либо иное имущество,
                   соответствующее требованиям Отбасы банк.
                 </p>
-              
-              <p class="housing_program_text bold_style green_active">
-                Основные требования к участию:
-              </p>
+
+                <p class="housing_program_text bold_style green_active">
+                  Основные требования к участию:
+                </p>
                 <p class="housing_program_text list_item"> 1) гражданство Республики Казахстан;
                 </p>
                 <p class="housing_program_text list_item">2) наличие дохода от трудовой и (или) предпринимательской
@@ -114,53 +111,58 @@
                   статуса, нуждающегося в жилище по предусмотренным категориям участников в соответствии с Законом
                   Республики Казахстан "О жилищных отношениях".
                 </p>
-              <h3 class="housing_program_title center">ЧТО УЧИТЫВАЕТСЯ КАК ДОХОД?
-              </h3>
-              <div class="service_description">
-                <p class="housing_program_text">
-                  Вы можете получить кредит только при наличии основного дохода. Основным доходом является доход от
-                  трудовой и/или предпринимательской деятельности.
-                </p>
-                <p class="housing_program_text">
-                  Если вашего основного дохода недостаточно, вы можете включить в расчет дополнительные доходы.</p>
-                <p class="housing_program_text bold_style">
-                  Основным доходом является:</p>
-                <p class="housing_program_text list_item"> - Заработная плата</p>
-                <p class="housing_program_text list_item"> - Доходы от ИП</p>
-                <p class="housing_program_text list_item"> - Доход по договору о возмездном
-                  оказании услуг
-                </p>
-                <p class="housing_program_text list_item">- Жилищные выплаты </p>
-                <p class="housing_program_text">- Стипендия работников организаций, обучающихся в учебных заведениях
-                </p>
-                <p class="housing_program_text bold_style">
-                  Дополнительным доходом является:</p>
-                <p class="housing_program_text list_item"> - Пенсия и пенсионные отчисления
-                  (при наличии основного дохода)
-                </p>
-                <p class="housing_program_text">- Экологические выплаты </p>
-                <p class="housing_program_text">Например, максимальный доход для участия в программе будет составлять:
-                </p>
-                <p class="housing_program_text bold_style list_item">2 человек х 106 336 тенге = 212 672 тенге </p>
-                <p class="housing_program_text bold_style list_item">3 человек х 106 336 тенге = 319 008 тенге </p>
-                <p class="housing_program_text bold_style list_item">4 человек х 106 336 тенге = 425 344 тенге </p>
-                <p class="housing_program_text bold_style list_item">5 человек х 106 336 тенге = 531 680 тенге </p>
-                <p class="housing_program_text bold_style list_item">6 человек х 106 336 тенге = 638 016 тенге </p>
-                <p class="housing_program_text bold_style">7 человек х 106 336 тенге = 744 352 тенге </p>
+                <h3 class="housing_program_title center">ЧТО УЧИТЫВАЕТСЯ КАК ДОХОД?
+                </h3>
+                <div class="service_description">
+                  <p class="housing_program_text">
+                    Вы можете получить кредит только при наличии основного дохода. Основным доходом является доход от
+                    трудовой и/или предпринимательской деятельности.
+                  </p>
+                  <p class="housing_program_text">
+                    Если вашего основного дохода недостаточно, вы можете включить в расчет дополнительные доходы.</p>
+                  <p class="housing_program_text bold_style">
+                    Основным доходом является:</p>
+                  <p class="housing_program_text list_item"> - Заработная плата</p>
+                  <p class="housing_program_text list_item"> - Доходы от ИП</p>
+                  <p class="housing_program_text list_item"> - Доход по договору о возмездном
+                    оказании услуг
+                  </p>
+                  <p class="housing_program_text list_item">- Жилищные выплаты </p>
+                  <p class="housing_program_text">- Стипендия работников организаций, обучающихся в учебных заведениях
+                  </p>
+                  <p class="housing_program_text bold_style">
+                    Дополнительным доходом является:</p>
+                  <p class="housing_program_text list_item"> - Пенсия и пенсионные отчисления
+                    (при наличии основного дохода)
+                  </p>
+                  <p class="housing_program_text">- Экологические выплаты </p>
+                  <p class="housing_program_text">Например, максимальный доход для участия в программе будет составлять:
+                  </p>
+                  <p class="housing_program_text bold_style list_item">2 человек х 106 336 тенге = 212 672 тенге </p>
+                  <p class="housing_program_text bold_style list_item">3 человек х 106 336 тенге = 319 008 тенге </p>
+                  <p class="housing_program_text bold_style list_item">4 человек х 106 336 тенге = 425 344 тенге </p>
+                  <p class="housing_program_text bold_style list_item">5 человек х 106 336 тенге = 531 680 тенге </p>
+                  <p class="housing_program_text bold_style list_item">6 человек х 106 336 тенге = 638 016 тенге </p>
+                  <p class="housing_program_text bold_style">7 человек х 106 336 тенге = 744 352 тенге </p>
+                </div>
+                <h3 class="housing_program_title center">КАК ПРИВЛЕЧЬ СОЗАЕМЩИКА? </h3>
+                <div class="service_description">
+                  <p class="housing_program_text">
+                    Если вы не работаете на момент подачи заявки, вы должны привлечь работающего супруга.
+                  </p>
+                  <p class="housing_program_text">В случае недостаточности вашего дохода можно привлечь до 2-х
+                    созаемщиков. </p>
+                </div>
               </div>
-              <h3 class="housing_program_title center">КАК ПРИВЛЕЧЬ СОЗАЕМЩИКА? </h3>
-              <div class="service_description">
-                <p class="housing_program_text">
-                  Если вы не работаете на момент подачи заявки, вы должны привлечь работающего супруга.
-                </p>
-                <p class="housing_program_text">В случае недостаточности вашего дохода можно привлечь до 2-х созаемщиков. </p>
-              </div>
-            </div>
     </section>
   </section>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
